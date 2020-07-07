@@ -1,0 +1,1514 @@
+{
+	"version": 24,
+	"artboards": [
+		{
+			"name": "Artboard",
+			"translation": [
+				0,
+				0
+			],
+			"width": 300,
+			"height": 300,
+			"origin": [
+				0,
+				0
+			],
+			"clipContents": true,
+			"color": [
+				1,
+				0.7019608020782471,
+				0,
+				1
+			],
+			"nodes": [
+				{
+					"name": "Outer Circle",
+					"translation": [
+						150,
+						150
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 4,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Color",
+					"parent": 0,
+					"opacity": 1,
+					"color": [
+						0,
+						0,
+						0,
+						1
+					],
+					"width": 5,
+					"cap": 0,
+					"join": 0,
+					"trim": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "Ellipse Path",
+					"parent": 0,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"width": 130,
+					"height": 130,
+					"type": "ellipse"
+				},
+				{
+					"name": "Clipping Circle",
+					"translation": [
+						150,
+						150
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 0.25,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 1,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Ellipse Path",
+					"parent": 3,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"width": 116,
+					"height": 116,
+					"type": "ellipse"
+				},
+				{
+					"name": "Arrow",
+					"translation": [
+						150,
+						125
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [
+						{
+							"node": 3,
+							"intersect": true
+						}
+					],
+					"isVisible": false,
+					"blendMode": 3,
+					"drawOrder": 8,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Path",
+					"parent": 5,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": false,
+					"isClosed": false,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								0
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								50
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 5,
+					"opacity": 1,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"width": 5,
+					"cap": 1,
+					"join": 1,
+					"trim": 2,
+					"start": 0,
+					"end": 1,
+					"offset": 1,
+					"type": "colorStroke"
+				},
+				{
+					"name": "Path",
+					"parent": 5,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": false,
+					"isClosed": false,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								-20,
+								30
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								50
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Path",
+					"parent": 5,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": false,
+					"isClosed": false,
+					"points": [
+						{
+							"pointType": 0,
+							"translation": [
+								20,
+								30
+							],
+							"radius": 0
+						},
+						{
+							"pointType": 0,
+							"translation": [
+								0,
+								50
+							],
+							"radius": 0
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Loading Spinner",
+					"translation": [
+						150,
+						150
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 5,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Color",
+					"parent": 10,
+					"opacity": 1,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"width": 5,
+					"cap": 1,
+					"join": 1,
+					"trim": 1,
+					"start": 0.63,
+					"end": 0.63,
+					"offset": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "Ellipse Path",
+					"parent": 10,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"width": 130,
+					"height": 130,
+					"type": "ellipse"
+				},
+				{
+					"name": "Download Connector",
+					"translation": [
+						149.72402954101562,
+						176.94647216796875
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": false,
+					"blendMode": 3,
+					"drawOrder": 9,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Download Connector Path",
+					"parent": 13,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": false,
+					"isClosed": false,
+					"points": [
+						{
+							"pointType": 1,
+							"translation": [
+								0,
+								0
+							],
+							"in": [
+								0,
+								-22.75
+							],
+							"out": [
+								0,
+								22.75
+							]
+						},
+						{
+							"pointType": 1,
+							"translation": [
+								-47.599998474121094,
+								17
+							],
+							"in": [
+								-30.849998474121094,
+								36.75
+							],
+							"out": [
+								-64.3499984741211,
+								-2.75
+							]
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Color",
+					"parent": 13,
+					"opacity": 1,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"width": 5,
+					"cap": 1,
+					"join": 1,
+					"trim": 1,
+					"start": 0,
+					"end": 0,
+					"offset": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "Liquid BG",
+					"translation": [
+						388.0171203613281,
+						283
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [
+						{
+							"node": 3,
+							"intersect": true
+						}
+					],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 2,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Color",
+					"parent": 16,
+					"opacity": 1,
+					"color": [
+						1,
+						0.7921568751335144,
+						0.1568627506494522,
+						1
+					],
+					"fillRule": 0,
+					"type": "colorFill"
+				},
+				{
+					"name": "Liquid Path",
+					"parent": 16,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": true,
+					"points": [
+						{
+							"pointType": 1,
+							"translation": [
+								-246.57533264160156,
+								-54.45205307006836
+							],
+							"in": [
+								-280.9951477050781,
+								-54.45205307006836
+							],
+							"out": [
+								-212.155517578125,
+								-54.45205307006836
+							]
+						},
+						{
+							"pointType": 1,
+							"translation": [
+								-164.38356018066406,
+								-75
+							],
+							"in": [
+								-205.4794464111328,
+								-75
+							],
+							"out": [
+								-123.28766632080078,
+								-75
+							]
+						},
+						{
+							"pointType": 1,
+							"translation": [
+								-82.19178009033203,
+								-54.45205307006836
+							],
+							"in": [
+								-123.28766632080078,
+								-54.45205307006836
+							],
+							"out": [
+								-41.09588623046875,
+								-54.45205307006836
+							]
+						},
+						{
+							"pointType": 1,
+							"translation": [
+								0.000002638671958266059,
+								-75
+							],
+							"in": [
+								-41.09588623046875,
+								-75
+							],
+							"out": [
+								41.09589385986328,
+								-75
+							]
+						},
+						{
+							"pointType": 1,
+							"translation": [
+								82.19178009033203,
+								-54.45205307006836
+							],
+							"in": [
+								41.09589385986328,
+								-54.45205307006836
+							],
+							"out": [
+								123.28767395019531,
+								-54.45205307006836
+							]
+						},
+						{
+							"pointType": 1,
+							"translation": [
+								164.38356018066406,
+								-75
+							],
+							"in": [
+								123.28767395019531,
+								-75
+							],
+							"out": [
+								205.47946166992188,
+								-75
+							]
+						},
+						{
+							"pointType": 1,
+							"translation": [
+								246.57534790039062,
+								-54.45205307006836
+							],
+							"in": [
+								208.5616455078125,
+								-54.45205307006836
+							],
+							"out": [
+								284.58905029296875,
+								-54.45205307006836
+							]
+						},
+						{
+							"pointType": 2,
+							"translation": [
+								328.7671203613281,
+								-75
+							],
+							"in": [
+								284.58905029296875,
+								-75
+							],
+							"out": [
+								328.7671203613281,
+								-73.63013458251953
+							]
+						},
+						{
+							"pointType": 2,
+							"translation": [
+								328.7671203613281,
+								75
+							],
+							"in": [
+								328.7671203613281,
+								-23.630136489868164
+							],
+							"out": [
+								328.7671203613281,
+								75
+							]
+						},
+						{
+							"pointType": 2,
+							"translation": [
+								-328.7671203613281,
+								75
+							],
+							"in": [
+								-328.7671203613281,
+								75
+							],
+							"out": [
+								-328.7671203613281,
+								-25
+							]
+						},
+						{
+							"pointType": 3,
+							"translation": [
+								-328.7671203613281,
+								-75
+							],
+							"in": [
+								-328.7671203613281,
+								-75
+							],
+							"out": [
+								-289.2323913574219,
+								-75
+							]
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Liquid",
+					"translation": [
+						458.0171203613281,
+						283
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [
+						{
+							"node": 3,
+							"intersect": true
+						}
+					],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 3,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Color",
+					"parent": 19,
+					"opacity": 1,
+					"color": [
+						1,
+						0.7568627595901489,
+						0.027450980618596077,
+						1
+					],
+					"fillRule": 0,
+					"type": "colorFill"
+				},
+				{
+					"name": "Liquid Path",
+					"parent": 19,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": true,
+					"points": [
+						{
+							"pointType": 1,
+							"translation": [
+								-246.57533264160156,
+								-54.45205307006836
+							],
+							"in": [
+								-280.9951477050781,
+								-54.45205307006836
+							],
+							"out": [
+								-212.155517578125,
+								-54.45205307006836
+							]
+						},
+						{
+							"pointType": 1,
+							"translation": [
+								-164.38356018066406,
+								-75
+							],
+							"in": [
+								-205.4794464111328,
+								-75
+							],
+							"out": [
+								-123.28766632080078,
+								-75
+							]
+						},
+						{
+							"pointType": 1,
+							"translation": [
+								-82.19178009033203,
+								-54.45205307006836
+							],
+							"in": [
+								-123.28766632080078,
+								-54.45205307006836
+							],
+							"out": [
+								-41.09588623046875,
+								-54.45205307006836
+							]
+						},
+						{
+							"pointType": 1,
+							"translation": [
+								0.000002638671958266059,
+								-75
+							],
+							"in": [
+								-41.09588623046875,
+								-75
+							],
+							"out": [
+								41.09589385986328,
+								-75
+							]
+						},
+						{
+							"pointType": 1,
+							"translation": [
+								82.19178009033203,
+								-54.45205307006836
+							],
+							"in": [
+								41.09589385986328,
+								-54.45205307006836
+							],
+							"out": [
+								123.28767395019531,
+								-54.45205307006836
+							]
+						},
+						{
+							"pointType": 1,
+							"translation": [
+								164.38356018066406,
+								-75
+							],
+							"in": [
+								123.28767395019531,
+								-75
+							],
+							"out": [
+								205.47946166992188,
+								-75
+							]
+						},
+						{
+							"pointType": 1,
+							"translation": [
+								246.57534790039062,
+								-54.45205307006836
+							],
+							"in": [
+								208.5616455078125,
+								-54.45205307006836
+							],
+							"out": [
+								284.58905029296875,
+								-54.45205307006836
+							]
+						},
+						{
+							"pointType": 2,
+							"translation": [
+								328.7671203613281,
+								-75
+							],
+							"in": [
+								284.58905029296875,
+								-75
+							],
+							"out": [
+								328.7671203613281,
+								-73.63013458251953
+							]
+						},
+						{
+							"pointType": 2,
+							"translation": [
+								328.7671203613281,
+								75
+							],
+							"in": [
+								328.7671203613281,
+								-23.630136489868164
+							],
+							"out": [
+								328.7671203613281,
+								75
+							]
+						},
+						{
+							"pointType": 2,
+							"translation": [
+								-328.7671203613281,
+								75
+							],
+							"in": [
+								-328.7671203613281,
+								75
+							],
+							"out": [
+								-328.7671203613281,
+								-25
+							]
+						},
+						{
+							"pointType": 3,
+							"translation": [
+								-328.7671203613281,
+								-75
+							],
+							"in": [
+								-328.7671203613281,
+								-75
+							],
+							"out": [
+								-289.2323913574219,
+								-75
+							]
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "Success Circle",
+					"translation": [
+						150,
+						150
+					],
+					"rotation": 0,
+					"scale": [
+						0,
+						0
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": false,
+					"blendMode": 3,
+					"drawOrder": 6,
+					"transformAffectsStroke": false,
+					"type": "shape"
+				},
+				{
+					"name": "Ellipse Path",
+					"parent": 22,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"width": 116,
+					"height": 116,
+					"type": "ellipse"
+				},
+				{
+					"name": "Color",
+					"parent": 22,
+					"opacity": 1,
+					"color": [
+						0.4156862795352936,
+						0.6274510025978088,
+						0.8823529481887817,
+						1
+					],
+					"fillRule": 0,
+					"type": "colorFill"
+				},
+				{
+					"name": "Ceram Hub Font",
+					"translation": [
+						151.99996948242188,
+						247.50003051757812
+					],
+					"rotation": 0,
+					"scale": [
+						0.724851667881012,
+						0.724851667881012
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 10,
+					"bones": [],
+					"atlas": 0,
+					"numVertices": 4,
+					"vertices": [
+						-227,
+						-170,
+						0.001953125,
+						0.001953125,
+						227,
+						-170,
+						0.888671875,
+						0.001953125,
+						227,
+						170,
+						0.888671875,
+						0.666015625,
+						-227,
+						170,
+						0.001953125,
+						0.666015625
+					],
+					"isDynamic": false,
+					"numTriangles": 2,
+					"triangles": [
+						3,
+						0,
+						1,
+						1,
+						2,
+						3
+					],
+					"type": "image"
+				}
+			],
+			"animations": [
+				{
+					"name": "intro",
+					"fps": 60,
+					"duration": 4.533333333333333,
+					"isLooping": true,
+					"keyed": [
+						{
+							"component": 0,
+							"scaleX": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 2,
+										"cubicX1": 0.6559139784946236,
+										"cubicY1": 0,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 1
+									}
+								]
+							],
+							"scaleY": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 2,
+										"cubicX1": 0.6559139784946236,
+										"cubicY1": 0,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 1
+									}
+								]
+							],
+							"opacity": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": 0.25
+									}
+								]
+							]
+						},
+						{
+							"component": 3,
+							"scaleX": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 0,
+										"value": 1
+									}
+								]
+							],
+							"scaleY": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 0,
+										"value": 1
+									}
+								]
+							]
+						},
+						{
+							"component": 5,
+							"posY": [
+								[
+									{
+										"time": 1,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.15591397849462366,
+										"cubicY2": 1,
+										"value": 125
+									},
+									{
+										"time": 1.3333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 1,
+										"cubicY2": 0.9905913978494624,
+										"value": 105
+									},
+									{
+										"time": 1.4666666666666666,
+										"interpolatorType": 0,
+										"value": 151.9
+									},
+									{
+										"time": 6.6,
+										"interpolatorType": 2,
+										"cubicX1": 0.8064516129032258,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 38
+									},
+									{
+										"time": 6.766666666666667,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.1881720430107527,
+										"cubicY2": 1,
+										"value": 145
+									},
+									{
+										"time": 7.1,
+										"interpolatorType": 1,
+										"value": 125
+									}
+								]
+							],
+							"scaleX": [
+								[
+									{
+										"time": 1,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.15591397849462366,
+										"cubicY2": 1,
+										"value": 1
+									},
+									{
+										"time": 1.3333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 1,
+										"cubicY2": 0.9905913978494624,
+										"value": 1.1
+									},
+									{
+										"time": 1.4666666666666666,
+										"interpolatorType": 0,
+										"value": 0
+									},
+									{
+										"time": 6.6,
+										"interpolatorType": 1,
+										"value": 1
+									},
+									{
+										"time": 6.7,
+										"interpolatorType": 1,
+										"value": 0.8
+									},
+									{
+										"time": 6.766666666666667,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.1774193548387097,
+										"cubicY2": 1,
+										"value": 1.2
+									},
+									{
+										"time": 7.1,
+										"interpolatorType": 1,
+										"value": 1
+									}
+								]
+							],
+							"scaleY": [
+								[
+									{
+										"time": 1,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.15591397849462366,
+										"cubicY2": 1,
+										"value": 1
+									},
+									{
+										"time": 1.3333333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 1,
+										"cubicY2": 0.9905913978494624,
+										"value": 0.8
+									},
+									{
+										"time": 1.4666666666666666,
+										"interpolatorType": 0,
+										"value": 0.5
+									},
+									{
+										"time": 6.6,
+										"interpolatorType": 1,
+										"value": 1
+									},
+									{
+										"time": 6.7,
+										"interpolatorType": 1,
+										"value": 1.2
+									},
+									{
+										"time": 6.766666666666667,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.1774193548387097,
+										"cubicY2": 1,
+										"value": 0.8
+									},
+									{
+										"time": 7.1,
+										"interpolatorType": 1,
+										"value": 1
+									}
+								]
+							],
+							"opacity": [
+								[
+									{
+										"time": 1.4666666666666666,
+										"interpolatorType": 0,
+										"value": 1
+									},
+									{
+										"time": 1.4833333333333334,
+										"interpolatorType": 0,
+										"value": 0
+									},
+									{
+										"time": 6.6,
+										"interpolatorType": 1,
+										"value": 1
+									}
+								]
+							]
+						},
+						{
+							"component": 10
+						},
+						{
+							"component": 11,
+							"strokeStart": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0.63
+									},
+									{
+										"time": 0.5666666666666667,
+										"interpolatorType": 1,
+										"value": 0.63
+									},
+									{
+										"time": 4.066666666666666,
+										"interpolatorType": 1,
+										"value": 0.63
+									},
+									{
+										"time": 4.333333333333333,
+										"interpolatorType": 1,
+										"value": 0.82
+									}
+								]
+							],
+							"strokeEnd": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 2,
+										"cubicX1": 0,
+										"cubicY1": 0.0026881720430107503,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0.63
+									},
+									{
+										"time": 0.5666666666666667,
+										"interpolatorType": 1,
+										"value": 0.82
+									}
+								]
+							],
+							"strokeOffset": [
+								[
+									{
+										"time": 0.2,
+										"interpolatorType": 1,
+										"value": -0.02
+									},
+									{
+										"time": 4.2,
+										"interpolatorType": 1,
+										"value": 2.805
+									}
+								]
+							]
+						},
+						{
+							"component": 13
+						},
+						{
+							"component": 15,
+							"strokeEnd": [
+								[
+									{
+										"time": 1.45,
+										"interpolatorType": 0,
+										"value": 0
+									},
+									{
+										"time": 1.4666666666666666,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0.2
+									},
+									{
+										"time": 1.65,
+										"interpolatorType": 1,
+										"value": 1
+									}
+								]
+							],
+							"strokeStart": [
+								[
+									{
+										"time": 1.45,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 1,
+										"cubicY2": 0.9905913978494624,
+										"value": 0
+									},
+									{
+										"time": 1.65,
+										"interpolatorType": 1,
+										"value": 1
+									}
+								]
+							]
+						},
+						{
+							"component": 16,
+							"posX": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": -58.47999999999998
+									},
+									{
+										"time": 4.666666666666667,
+										"interpolatorType": 1,
+										"value": 268.4689025878906
+									}
+								]
+							],
+							"posY": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": 209
+									}
+								]
+							]
+						},
+						{
+							"component": 19,
+							"posY": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": 216
+									},
+									{
+										"time": 4.666666666666667,
+										"interpolatorType": 0,
+										"value": 216
+									}
+								]
+							],
+							"posX": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": 405.41999999999996
+									},
+									{
+										"time": 4.666666666666667,
+										"interpolatorType": 0,
+										"value": -87.98287963867188
+									}
+								]
+							]
+						},
+						{
+							"component": 22,
+							"scaleX": [
+								[
+									{
+										"time": 4.866666666666666,
+										"interpolatorType": 2,
+										"cubicX1": 0.5645161290322581,
+										"cubicY1": 0,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 5.033333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 1.4
+									},
+									{
+										"time": 5.2,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0.9
+									},
+									{
+										"time": 5.366666666666666,
+										"interpolatorType": 1,
+										"value": 1
+									}
+								]
+							],
+							"scaleY": [
+								[
+									{
+										"time": 4.866666666666666,
+										"interpolatorType": 2,
+										"cubicX1": 0.5645161290322581,
+										"cubicY1": 0,
+										"cubicX2": 0,
+										"cubicY2": 1,
+										"value": 0
+									},
+									{
+										"time": 5.033333333333333,
+										"interpolatorType": 2,
+										"cubicX1": 1,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 1.4
+									},
+									{
+										"time": 5.2,
+										"interpolatorType": 2,
+										"cubicX1": 0.42,
+										"cubicY1": 0,
+										"cubicX2": 0.58,
+										"cubicY2": 1,
+										"value": 0.9
+									},
+									{
+										"time": 5.366666666666666,
+										"interpolatorType": 1,
+										"value": 1
+									}
+								]
+							],
+							"opacity": [
+								[
+									{
+										"time": 6.433333333333334,
+										"interpolatorType": 1,
+										"value": 1
+									},
+									{
+										"time": 6.6,
+										"interpolatorType": 1,
+										"value": 0
+									}
+								]
+							]
+						},
+						{
+							"component": 25,
+							"opacity": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": 0
+									},
+									{
+										"time": 0.9,
+										"interpolatorType": 1,
+										"value": 0
+									},
+									{
+										"time": 2.2666666666666666,
+										"interpolatorType": 0,
+										"value": 1
+									}
+								]
+							]
+						}
+					],
+					"animationStart": 0,
+					"animationEnd": 7.1,
+					"type": "animation"
+				}
+			],
+			"type": "artboard"
+		}
+	],
+	"atlases": {
+		"isOOB": false,
+		"data": [
+			"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAgAElEQVR4Xu3dMbI0PVcf8CFyjGNHZgmwBDtxbmeksARYglkCxER2TGQvwSwBIlJgCVDHPP3Rb1d362jOzL33jH5T9dZH8cyo1T+ppb/UPXN/7+FFgAABAgQILCfwe8udsRMmQIAAAQIEHgKATkCAAAECBBYUEAAWbHSnTIAAAQIEBAB9gAABAgQILCggACzY6E6ZAAECBAgIAPoAAQIECBBYUEAAWLDRnTIBAgQIEBAA9AECBAgQILCggACwYKM7ZQIECBAgIADoAwQIECBAYEEBAWDBRnfKBAgQIEBAANAHCBAgQIDAggICwIKN7pQJECBAgIAAoA8QIECAAIEFBQSABRvdKRMgQIAAAQFAHyBAgAABAgsKCAALNrpTJkCAAAECAoA+QIAAAQIEFhQQABZsdKdMgAABAgQEAH2AAAECBAgsKCAALNjoTpkAAQIECAgA+gABAgQIEFhQQABYsNGdMgECBAgQEAD0AQIECBAgsKCAALBgoztlAgQIECAgAOgDBAgQIEBgQQEBYMFGd8oECBAgQEAA0AcIECBAgMCCAgLAgo3ulAkQIECAgACgDxAgQIAAgQUFBIAFG90pEyBAgAABAUAfIECAAAECCwoIAAs2ulMmQIAAAQICgD5AgAABAgQWFBAAFmx0p0yAAAECBAQAfYAAAQIECCwoIAAs2OhOmQABAgQICAD6AAECBAgQWFBAAFiw0Z0yAQIECBAQAPQBAgQIECCwoIAAsGCjO2UCBAgQICAA6AMECBAgQGBBAQFgwUZ3ygQIECBAQADQBwgQIECAwIICAsCCje6UCRAgQICAAKAPECBAgACBBQUEgAUb3SkTIECAAAEBQB8gQIAAAQILCggACza6UyZAgAABAgKAPkCAAAECBBYUEAAWbHSnTIAAAQIEBAB9gAABAgQILCggACzY6E6ZAAECBAgIAPoAAQIECBBYUEAAWLDRnTIBAgQIEBAA9AECBAgQILCggACwYKM7ZQIECBAgIADoAwQIECBAYEEBAWDBRnfKBAgQIEBAANAHCBAgQIDAggICwIKN7pQJECBAgIAAoA8QIECAAIEFBQSABRvdKRMgQIAAAQFAHyBAgAABAgsKCAALNrpTJkCAAAECAoA+QIAAAQIEFhQQABZsdKdMgAABAgQEAH2AAAECBAgsKCAALNjoTpkAAQIECAgA+gABAgQIEFhQQABYsNGdMgECBAgQEAD0AQIECBAgsKCAALBgoztlAgQIECAgAOgDBAgQIEBgQQEBYMFGd8oECBAgQEAA0AcIECBAgMCCAgLAgo3ulAkQIECAgACgDxAgQIAAgQUFBIAFG90pEyBAgAABAUAfIECAAAECCwoIAAs2ulMmQIAAAQICgD5AgAABAgQWFBAAFmx0p0yAAAECBAQAfYAAAQIECCwoIAAs2OhOmQABAgQICAD6AAECBAgQWFBAAFiw0Z0yAQIECBAQAPQBAgQIECCwoIAAsGCjO2UCBAgQICAA6AMECBAgQGBBAQFgwUZ3ygQIECBAQADQBwgQIECAwIICAsCCje6UCRAgQICAAKAPECBAgACBBQUEgAUb3SkTIECAAAEBQB8gQIAAAQILCggACza6UyZAgAABAgKAPkCAAAECBBYUEAAWbHSnTIAAAQIEBAB9gAABAgQILCggACzY6E6ZAAECBAgIAPoAAQIECBBYUEAAWLDRnTIBAgQIEBAA9AECBAgQILCggACwYKM7ZQIECBAgIADoAwQIECBAYEEBAWDBRnfKBAgQIEBAANAHCBAgQIDAggICwIKN7pQJECBAgIAAoA8QIECAAIEFBQSABRvdKRMgQIAAAQFAHyBAgAABAgsKCAALNrpTJkCAAAECAoA+QIAAAQIEFhQQABZsdKdMgAABAgQEAH2AAAECBAgsKCAALNjoTpkAAQIECAgA+gABAgQIEFhQQABYsNGdMgECBAgQEAD0AQIECBAgsKCAALBgoztlAgQIECAgAOgDBAgQIEBgQQEBYMFGd8oECBAgQEAA0AcIECBAgMCCAgLAgo3ulAkQIECAwOoB4L88Ho8//NUN/udFd/iLx+Pxz4/H438/Ho+/12UIEEgJ/Mnj8fj9X9fXf7/4xJ//+v+7tlKk3kTgtQIrBoD//Hg8YkC6mvDvhP/28XhEIIgBy4sAgd8KRKCOaysm/9lXhOu/+nV9zX7W+wkQeEJgpQAQK/0/+zVAPUH1m4/838fj8ad2BKqMPv8hAjHxx7UV//uKV+wMRND2IkDgjQKrBIC/fHJVMqL/H3YDRkT+/YMFYos/rq2rLf7Kqcdtt7i+Imx7ESDwBoFPDwCxIokBKrb93/WKlcp2L3PmGNutiNguPdYvtkLjdkP8rxeBnygQk35cWxEC3vl6925A7AzGNbi/bRG3I+K4HW/1Xd3ifLfjO/uAst8k8MkBILYk7+7zxwpj22aM/3ubbONz8YrwkN3SjFXKf022UVygUa/MqilCQKyCPHyYxPW2LxGI/rtdJ2cHHF1bMelm+v9Wdlybccvt1a+ow/+6KfQPml174fp/bkJZGFpUvLoXNS7vUwPA3Zb/9qBRZlKNyToGusxDTZkQEOVE3WZetkJntLz33QIxwVwF45lrK+o5Cun7c3n1CjZ2Lv5usIPx6mN+Z9vEsd8VpN59Xsp/k8AnBoCryT9W05GA439nX9lbCXe3A2KlMVr1bCunGBj3W6vx//+jZquRWWPv//kCV324cm1FyI5rNrPb9spnbjLho1MAiNX//xt0obilEYZeBP6/wKcFgKuL+hUdPybkGABHA9Vxmy37uX14iGPESmv/yuww6NYE3iVwte3/imsr6ny3s7CdUwTh2JaP/62+MsfrtGWeCTTPPq9Utfb5HyrwSQHg6n7eq1P8aODYr9Zj8o/3bz82dNUNzgaaSPPHz3UakH5ol1etJwS+6to66/PH6r5iGzuuy39KOMSu2zM7homiX/6WjN0rd1BefgIK/HqBTwkAV/fz3jVhjkLAtioavS9a/KqOZ7cy7AJ8/TWy+hFjiz4ml+PT/u+4tuJYcV9+9IoHbitfDxw9/BfHj2eEYrehwysbaP7ji3ZPOpioY0LgUwLA2b3JV6/895xxwcWgePf1whigRrcL7up4taXnIk50bG95mcBXX1uZ3+yo3nYYfYsh8Dptl2cCTexkxI6GF4HfCXxCADi7Xz578caEvv/t8pi847+77b+z4850rdFW5lUAsI03o+y9FYFXXFvb39uISXf7ud+73/7P7gJUvqL3advlmUDzzgVRpY/57DcKfEIAOG6zzybdu4dnIgTEhHv10FFmtXLWvJk6XpXtQv7GC2axQ8d2/H6XK9NvN6LRw693q/jMN2aevQ4+cbs8E2g6Pc+w2GX2fafbPQCcrVBmVwajSfzuvnt2tXJs4Uwdr+o12jn4vt7kyJ8kcLatPDuJHAPE0edqEs880T4TRvbHzezcPVv2d7V/PNB494uMsYCJW4deBH4j0D0AHFf/z6wKMvfP7h46yqxW9ujZOl49QPg3j8fjP+yeL4iLOx7I6vizpS7Hnytw7H+zt9XizDJb02fPtGS+0x7lP/M8TCZcPHOu39WSGavqMxPfdW6O+2aBzgHguPp+9jvCmS3Bu12AzIpia8aZJ4tHq6dndhXe3J0U/yECr7q2MuH6KhCPVrVBPbsjEZ/JBPZOz9lkAk120fEh3ddpZAU6B4Bjx6908sxgc7dtn/l8tMnMwPIv2Ub89b7K+U8eyts/XOBV11ZmdXq13Z65r/3MVxEz1+ozOwvf1SUygeaZoPRd5+O4XyjQOQActygrF23m+/p3E2xmtT7zHf7MwHnsJp4N+MIL58MPdZx8K9dWJsieTVCZiW029Gauq273/zNjT6X9Pryrr316XQPAcdu+eo9r9CBg9JKrY2S24OLzM6uVbJn73tvpvuXaV93PPvtXX1uZCepsIs9ck7MBIHNddbqOMrcvuwWan311fFjtugaA4333ma31sybMDDZn9+8zf1FsO97MwJJZ/VS7YjwzEQPoM38e9OqvJG6/nzD6DYVs3c8G7BjQIozF/579GlzULX7TYf/namfOdfvrj/uvv8VxwursdyG235A4+/PR0eabSfacv/t9r762MrtrZ9dG5pqcDQCZhxJnxpKt7Y9/dnymXmf9Lfp3lDH6i6WZZyw222jXuC72f5Bs+12Gq2vpu/ui479ZoGsAOE4M1S2uzMrg7Ks0mUFqa8LsV3FmQsUrusfMzkQcLzPoxPti4ouyR4PY2TnEVm2EoLtfWozPRdlxjC0IVP8e+t1957MAmOk3Uc+ZCeEVbVop49XXViYAnN2+ylxbs66Z5wqy98ujb8a5XfXRTN3uzjHzwHA20EQdjyHl2Ecqf9Gx0t989hsFugaA/YXzii2u7EC+98psvx2bNjPZ3tXlHx6Px396cX+ZeXYgVhBhn33FIBYrqpk/qHL12/N3x9xcR5PN3blm+sB+chgd61jfu4ll+7W845+B3sLD3S/nZdsi+75XX1sZp7N2yXwucz1t5525XrMhPcocTb6jcSnzPMIojGR2CmMHYL8bNuoHMzsgo7L8+w8X6BoA9oPDzNb6VXOMLubtc3uvzIRxPN7+LwWe1WW0+o9VxSjJbyvjGFSjvNHFnw0AM1933J9bhID4HYXMTkDmbyxctWEMXDEg3r3uHsTM3KvevgmSmZyO9Thzjkkg2nP0NyOirOofwMkORa++tjJWZ8/XZFbrMyaZnauZZ4ky3ya4G18zY84o4GTqkG33/ftGweOZMn3mBwp0DQD7wTqz1Taiz2w3Hrfknr34YmUQk9XZhHhXj211EpNGTOr7e3lxftu98f3998zgmwlQz6zK9+bZb0BkVjRXbRk+d7+GFp+7CjvZX3SM6+W4Qo5BOuxH/eG4IsxMSPtzffZ3LkZ9//jvr762Mn3wrF1GnlHvmVt/mcCeHUsyq/fRFn414GTqcGzb/fnd9b+oe4SAq59An+1T3v9DBT4hAIxScoY+M0jtB/DZwftsJyAm3vhve41WBKMnpc9+pyAziGa2/CoT83Z+o58/rppm2rny07Pbw3zbDsxxkBztIOwnhNlbKdu5ZSeojMXVe/bn8Ypra+QS9TiG0Mx2/WiCPZ5fpg9nroUoNxMm7m4BZM4vjnO3Ep+9Xs52S+4WHF/R1yr91GdfINA1AOy/WzyzDXhFlknj++3BzGDygub5XRFXq799PY6roewKYbSKmpmsYtCL1Vx8Jo6/f90NKDNb//snpEcP/R3b4GqAz7RnTFLbX4w8G5xHYWubEI7tEucTE228YrK828WY2aJ+tv+9+toauUQ9j30jM7nNWmTqMboWNtNsf4nzOntlzi8+V72FsB37qt/f1WPmeYhn+5rPfbOAAPBvDZD5sZJtkMqm91c27dUFvN+5OLZlZuIePag0MzHvt/nPVhZ3x8qsqMLzbNAf7Zzs2+FqgM+sUqP+W6h5ZsW6TfQRNrcnx48T36ge2Vsplb73ygCQvVaOK91Mf5hZoWbC8NW3PMIyQu1+OzwTJu7ql+mzo2szs2i5uma2/jFyecXiqtIXffbNAgLAvw3qcTGNXtsglU3vMWDEgH28Vz86zvHf7+7RbxPG2eCVGWRG9/8zA3HU97gdfnZL5WpFMXrwcfO4ui+ZrePd8WNAz77OdmMyfSgmhO03Cq4G5tHE0i0AZB8cDZsIrKOvfWbb6NXv29++yrR1HP9u+z4zeY8ezh31lajD6KHj0eJnND682ll5XyzwCQEge9/uijYzgewnj8z23zbAx9bufsU327x3g8B+dXU2MWQGmTu77MQc53RcKVwNTmcr8Iz/2TE2y+znr7aMs4FuO97ZffFMGftvcJyFmcxqeTQpzPavs/fvdwCqzwBk2+YV9X5nGfsAkD2nq92mTDvHudztIGRDSGaX5G73c/Y2yzvbQNlvEOgaAF75pHJmQt9fCJnkvb+AZ+9Tb808St/7QeAdT1FnB7pj+LgbnJ59UPFu5Zut59VgmNkp2drk6lmMTB32txDOgldmtZwZ0KvDxFdfW9X6fsXn9+NkZry4277PhMXRDkLm9l72WyN3AWD2QcuvaAvHeKFA1wCwX92OJso7ruwqdxuws8n7eAHH1mYMHMcH487qFoNHDPRnP3O7f/9+EDhODJl6ji7u0f3orS7H1f/dZPjMcwp3q//4t+wEfnU/M7NTsp3r1QScmRS2Mq7CTCZEfMX3s7/62nrhcPaWoo6r4MwCoPqDU3Eidw8kZvp8drfoLgB4EPAtXernFNo1AOwH3NHDMnfamSS9nyiz6f3qwonPRxg4/m58vD+CzMxvcu8HgeOKMlPPu+29zOfD9WwyuwoOZyaZr1+O7ntnJ9+rATUzoG996KqMmRBxFURG55EZjCNExPue+fsO2zl+5bV1Ft4zk9tXjqD70JX9vYi7nZpRO8e5jca0TH/LPsA3egC66xzxlX2k7bG6Nu5xkMh+fefYUJkJaH8xZwenr7h39jePx+O//TqhP348Hn+9O7lMPe8GqYxLHO54j/guOBwn8uxgOroPndmpuBpQMzslG+vdimo0iI5W//HvoyAy6lP7Nq/sFHzltXV2SygzQW4BJwL8u14RpCJY73fissH4zn/UznE+d7uamUVLJizGcTLXYNc54l394qPK7dq4xwtxNEmcNVrmnuvxPlp2YvyKe7X/+Gub8GwizgyiVw8AZh9SOhtk7lYmx0Ets+U9uo+ZrevVgJoZTLe+czWoz4SIq36aOY9Rn9rbPxuI41y/6tq6ClSZCfKsLba/p7C11/4bFzODdvSVbUfu+LlMsI7PXPln+0o1nI92ELbzyoyBXeeImTZf9r1dG/c4YI7uZ581cGYb7XghZganOFb1mwmZDrmv//F4mXpeDVLZSfE4qY4+d6xjJkyN7mNmV2RX7ZEd0O8G1NF5b21510cz53G3pbtfyWUH/6s+9hXX1tXX0zIr0uzqdju/TBjO7phk+uy7HwDM7DZln4sahfBZ68y45T0/SKBrAAjC4wQ+swuQGfiPF3JmlbY1bWUFlu0e+/Pfb6Vm6nl3YWcGzKjjfkIaPUx5XMln6pgJUpl2vFuRZQb0sx2WfRtl61D9YZi7PrUfyEe3CjL9693X1pVFJgiNngk5nl8mDGfHwUxZd5Nvpq/cXZvZ6yY7Fo7q88zCKtO/vOeHCGQ7/g+p7m+qcUyvmR+9ONviPDu3s7Ky23dfcdHsB4LjgJEZRO8micwK43jM0UR6XMln6jja/o92y4SVu/Z45lyP/SWzkxSfuftbCKMyRqv6vcPoVkHmWn722srshlR/ETK7uo3zzOwojGw3r0xZo9Ca6a+veDg3u6Mx6nezYSvTt7znBwl0DgBnaXj0p2cz97yuLuLMpBWf/YqLZl+X4wA22taLOl4NotmQs5/QR39J8SxMZeqYWclmVmRX5WRXU6PbEJk63PWJTD3uJr3j57OD/90w9My1lbk+RiE9M0FmV7fZsD9q380pc353u03xb5m+Ut0piuNkxvVqv/tB05iqPCuQ6SjPlv0Vn7uafI4X0fbHaTJPDV9dgJnVTZxzdkCp+OwHyuPkMJqQ47hXg2hmYt4CUgSPONbob9mf3X/PDPSjlWx2RXZVTjYM3t17zwyid97ZSerumZJ9v3zlPdt3XFujcJL5RseojP11lenPo362lZcp6243IRuuq98gyO5oZAJN1qYylvnsNwp0DwDVv1N/pL/r8JkBIMr7iotmv5I4Tg6jbb2o49UgM7onuHlF6AiP0evKolLH2RXZ1blm2nN0OycTIka3MjLmd/f/97dfMrsmozbb/v3V19boe+nZMDUzZmWC5qhem0cmWN/t1GT6293qPeuT7QOZfpe1yfYp7/thAjMX0w+r+u+qk72wRvUfTdzZ48xsUY7qdPbvx+R+nBwy24xX7T66lz9T37udkFEdMyvZTHvclZO5/z+635ypw2hAHoWhuxXdcRdk1Idn2i/emzm/TJmZiSQTprKr261OI9t4X/aB3cy18c6v72V3ILN94JU2mT7gPT9Q4BMCQLBmkv4Vf0wSMWnHQH33yqwA4vPv/grgvh7PfFPhbhCtOO7t7gahzEomM9Bn2uPu3nsmAIy2mzOrqLtAmLGY+VnZUX2fGYIqfSJ2UOJ6iPYcvTJhYxTIjscYtfFoh2dfXmbCvPLPtHMc6+78su2QGX8ytyMy1+CoTf37Dxf4lAAQzJmEfmyOmCBigI6BYPTKTDhRRma1MzrW1b8fv253HDAyq6jqNwDu6p75OwaZe/eZgT4zIFcfdhytDjOD8t2kXL0Pu99JeeeA/cy1Ff0srq0I2JlX5vrKrm7jeJlJbrQ7s693ZdcqE27uFg/ZABFljPpsvCdTnxnrTPt6zw8U+KQAkO3Y8b4YLGNyGK36902WGaDeHQCOF+4xbGS2CasPOR678ezfMcgEgNHgkx0Qr1ZDmbbMrA4zD61lv79/NTxcBYhjW4/MqsNPZtKIY0Sojmtr9MesjvXJBLqZHY5MuMoEza2eo92Eu92mzLnFca6+Kpq1z9w6i+Nk+u2MdbVv+fw3CXxaAAjGmBxicIwBYP/X92LSjwk/LtTMluSxSTLbve8MAMfV/9nFnhkorraks6u86sCQqeNoGzMzuEdbnNU1E0C2iSwC1t1rNCmMBuTRDsLd54+DeLVdMkPQ6NqK6yuzm3Z2rJFldnW7lZ3pZ9nndTJ95ipMZHblos4zbX3VVpnQmlkkvHM3KdPPvOeLBD4xALyLLjOgxLGzg8psPY/HPxtwMivbs4kiMyhs9b37QZvROWW2ZTMhajRxbvU4698Zo/j86OucmUlhNJCOVoZXW9THvjA6zqhdvvvfM/1i9hwz7Zy9XZdp66sdmGywvtpBmLk2MyEps/p/927Sd/c3x/8lIADku0J21fmOi+fsK1lnE3lmsDlO4LGqi4kojpF5Ze4xnpUz87Wyu5CR3f4/Ww1l2zDqP2rHzMpuFCJG95XP6nA2Wb4rdGb6wyvek5nkRpbHejxzLVydSyYAnLVB5ry2Y56FvdFPbJ/VN/ubEXft9uw1/oq+oIwvFBAA8tiZVUpm5Zg/4r+/87jivVotjFaUUeLx7wbEQLm/VTKq32h7/mryj+NkQ8ZdAMjuxBwDQJxj1CEG1cxrdJ6Zwb36bYjjpBJ+R8fR7wxkzvW735O5vTYKZMdzyKx0s+PfMwFgtr+dBYBMiDme91VQygbw2aD13X3H8QsC2QugcIiP+uhoxRYnO7tVOQI6m/Cuti4zA8Y2qcRqOAbe7KS81XP2/GKlHAEmO/HGca7Ob2ZFtJ8Ys6Fh3xaje+qZMu9W5plJZT8pxPHiv6Pj7MQ46m/f8e+ZWzrZ7fqt/qNnCjL3y7eyMrtO+4kz0zeOzvv+GtdMXJszwXzUdzOLg+MC4Tv6gmN+oYAAMIedmWCjxFdtoZ3tOtw9bZyt391Zx8A4CgWZr3jFoLlNWsfjxaQVA9zV62r1nZko5lr0+t2jNszcYx6FiNEkNTqXT1j9xzlmgvWoPfZWmXA1G2QzdRy111f9+/73F2IMib6aCRNW/1/VQj/kOALAXENkk/1o+zhz1LPt3rvVcfxbZiv17tjb7yLE9mnmFQ8ixiQUA0e8tr+1cPwGxr6seG8EgDjG1a7A2ar2aB/HndlVyJzP9p7R0/vxvkzYGk1a2VXZVd273/uP88qsrmdW61Fm5vmM2T/aVQ2fEZrjunjXq3o9jP5Q07vqrdxvFBAA5vAzK4sosZqkryb/UbkzD7kdz3w/AFSDxJVqdps06hJbvrFKi5VLTP77wTMG0/i3u12EuZb97bszk8MoAGRCRMV55kdsKhbv/mymz86eayYAzJaZDf9nXtFXoz/HLsK7XhHGw3K0e3d1/E+4lfQu248tVwCYb9rRwL+V+OzX5WLCi9XG8UKOVVBsKY9+WS3z8NPZWR93LbLnmRU8G2CeWQFvDtvzANnjb+/b/O52D0ZBK8oarQgzW8zZQHk8x21CGfWFWZvveH9mYp2dnDIPaGbaeO8x8/zJ/nP7YJ25bXTWBqNbZvGZeE9cG9EvZ1+Zvjpbpvc3EBAA5hsp+22AZwbpq8FwvyIe1TizojqWcbWVPJrkRnWJf4/VdAxOZz++dLXTcVXu0WF2Bb3dGw2jsL56ZSac0SSTnWAyE+C+nuEZYe0TJv9MkIr3zN5SG7XN1i9HP/R07B+zbXXsr7NfuY3jb7/3MQrL20OSs3XMLiwy17r3NBMQAJ5rsOzEE5NeTK6jXx68esJ7q93sE9DZEBAXf9Tv7mdbYzCN85293x5brDEJjn4SNsqNldHo/mgYxkRw/KW5bFvsH1yMY959/TG7e3O3SzLTZtlzyAST53r0931qNLFFzUbPUhxrnwkAz656sxPs1d8ZudrhO2uBfTAfLTz2Rtlv+MS1FP302V9v/L5e48gvERAAnmOcTfLbPevtp1K31Wdc1KOJb2Yi2Z/N1c+2bquKuOi3h/cyCtv9xasH/Pblxapl9hW7AVF23L+N/7bXVu5dmeG4fXVqf9zts1c//xztEMfdHl58ZrW5eex3FJ6ZqK/OIeoe/0Vbfcqqf99Go29CZJ6leCYAPFPudpytr0a/2d+qm/m7GNFfzq7/baw46+9X1/TVbtPdNftMH529pr3/hwsIAM83UPaHNZ49wsyfUn32GD5H4DsFMs9AzD6sF+eTeQgw3vdsuP5OM8cm8DIBAaBGOftrX9mjbV+V+8QVX9bA+z5fIDNRz/zFvk0s89XCeG/2OY3PbwlnuKSAAFBv9ljFxMNymR/aGB3t2T+lOirXvxP4iQKZiXr2AcDtPDPPFnzKDyn9xLZVpwYCAsDrGinu6R3vCWZLj/txz/6Z4uwxvI/ATxQYfd109GuKV+eUeRD2E35I6Se2qTo1ERAAXt9Q24M3Vz9Ssz3UFUeu/P301yS/JNsAABDISURBVNdciQS+XuBuB232FwCPtb/63n2s/GPyj+vPi8CyAgLAsk3vxAn8KIHtWxD7SsVX9UZfIx2dROzKHb/C+sy3VEbH8e8E2gkIAO2aTIUJECBAgEBdQACoGyqBAAECBAi0ExAA2jWZChMgQIAAgbqAAFA3VAIBAgQIEGgnIAC0azIVJkCAAAECdQEBoG6oBAIECBAg0E5AAGjXZCpMgAABAgTqAgJA3VAJBAgQIECgnYAA0K7JVJgAAQIECNQFBIC6oRIIECBAgEA7AQGgXZOpMAECBAgQqAsIAHVDJRAgQIAAgXYCAkC7JlNhAgQIECBQFxAA6oZKIECAAAEC7QQEgHZNpsIECBAgQKAuIADUDZVAgAABAgTaCQgA7ZpMhQkQIECAQF1AAKgbKoEAAQIECLQTEADaNZkKEyBAgACBuoAAUDdUAgECBAgQaCcgALRrMhUmQIAAAQJ1AQGgbqgEAgQIECDQTkAAaNdkKkyAAAECBOoCAkDdUAkECBAgQKCdgADQrslUmAABAgQI1AUEgLqhEggQIECAQDsBAaBdk6kwAQIECBCoCwgAdUMlECBAgACBdgICQLsmU2ECBAgQIFAXEADqhkogQIAAAQLtBASAdk2mwgQIECBAoC4gANQNlUCAAAECBNoJCADtmkyFCRAgQIBAXUAAqBsqgQABAgQItBMQANo1mQoTIECAAIG6gABQN1QCAQIECBBoJyAAtGsyFSZAgAABAnUBAaBuqAQCBAgQINBOQABo12QqTIAAAQIE6gICQN1QCQQIECBAoJ2AANCuyVSYAAECBAjUBQSAuqESCBAgQIBAOwEBoF2TqTABAgQIEKgLCAB1QyUQIECAAIF2AgJAuyZTYQIECBAgUBcQAOqGSiBAgAABAu0EBIB2TabCBAgQIECgLiAA1A2VQIAAAQIE2gkIAO2aTIUJECBAgEBdQACoGyqBAAECBAi0ExAA2jWZChMgQIAAgbqAAFA3VAIBAgQIEGgnIAC0azIVJkCAAAECdQEBoG6oBAIECBAg0E5AAGjXZCpMgAABAgTqAgJA3VAJBAgQIECgnYAA0K7JVJgAAQIECNQFBIC6oRIIECBAgEA7AQGgXZOpMAECBAgQqAsIAHVDJRAgQIAAgXYCAkC7JlNhAgQIECBQFxAA6oZKIECAAAEC7QQEgHZNpsIECBAgQKAuIADUDZVAgAABAgTaCQgA7ZpMhQkQIECAQF1AAKgbKoEAAQIECLQTEADaNZkKEyBAgACBuoAAUDdUAgECBAgQaCcgALRrMhUmQIAAAQJ1AQGgbqgEAgQIECDQTkAAaNdkKkyAAAECBOoCAkDdUAkECBAgQKCdgADQrslUmAABAgQI1AUEgLqhEggQIECAQDsBAaBdk6kwAQIECBCoCwgAdUMlECBAgACBdgICQLsmU2ECBAgQIFAXEADqhkogQIAAAQLtBASAdk2mwgQIECBAoC4gANQNlUCAAAECBNoJCADtmkyFCRAgQIBAXUAAqBsqgQABAgQItBMQANo1mQoTIECAAIG6gABQN1QCAQIECBBoJyAAtGsyFSZAgAABAnUBAaBuqAQCBAgQINBOQABo12QqTIAAAQIE6gICQN1QCQQIECBAoJ2AANCuyVSYAAECBAjUBQSAuqESCBAgQIBAOwEBoF2TqTABAgQIEKgLCAB1QyUQIECAAIF2AgJAuyZTYQIECBAgUBcQAOqGSiBAgAABAu0EBIB2TabCBAgQIECgLiAA1A2VQIAAAQIE2gkIAO2aTIUJECBAgEBdQACoGyqBAAECBAi0ExAA2jWZChMgQIAAgbqAAFA3VAIBAgQIEGgnIAC0azIVJkCAAAECdQEBoG6oBAIECBAg0E5AAGjXZCpMgAABAgTqAgJA3VAJBAgQIECgnYAA0K7JVJgAAQIECNQFBIC6oRIIECBAgEA7AQGgXZOpMAECBAgQqAsIAHVDJRAgQIAAgXYCAkC7JlNhAgQIECBQFxAA6oZKIECAAAEC7QQEgHZNpsIECBAgQKAuIADUDZVAgAABAgTaCQgA7ZpMhQkQIECAQF1AAKgbKoEAAQIECLQTEADaNZkKEyBAgACBuoAAUDdUAgECBAgQaCcgALRrMhUmQIAAAQJ1AQGgbqgEAgQIECDQTkAAaNdkKkyAAAECBOoCAkDdUAkECBAgQKCdgADQrslUmAABAgQI1AUEgLqhEggQIECAQDsBAaBdk6kwAQIECBCoCwgAdUMlECBAgACBdgICQLsmU2ECBAgQIFAXEADqhkogQIAAAQLtBASAdk2mwgQIECBAoC4gANQNlUCAAAECBNoJCADtmkyFCRAgQIBAXUAAqBsqgQABAgQItBMQANo1mQoTIECAAIG6gABQN1QCAQIECBBoJyAAtGsyFSZAgAABAnUBAaBuqAQCBAgQINBOQABo12QqTIAAAQIE6gICQN1QCQQIECBAoJ2AANCuyVSYAAECBAjUBQSAuqESCBAgQIBAOwEBoF2TqTABAgQIEKgLCAB1QyUQIECAAIF2AgJAuyZTYQIECBAgUBcQAOqGSiBAgAABAu0EBIB2TabCBAgQIECgLiAA1A2VQIAAAQIE2gkIAO2aTIUJECBAgEBdQACoGyqBAAECBAi0ExAA2jWZChMgQIAAgbqAAFA3VAIBAgQIEGgnIAC0azIVJkCAAAECdQEBoG6oBAIECBAg0E5AAGjXZCpMgAABAgTqAgJA3VAJBAgQIECgnYAA0K7JVJgAAQIECNQFBIC6oRIIECBAgEA7AQGgXZOpMAECBAgQqAsIAHVDJRAgQIAAgXYCAkC7JlNhAgQIECBQFxAA6oZKIECAAAEC7QQEgHZNpsIECBAgQKAuIADUDZVAgAABAgTaCQgA7ZpMhQkQIECAQF1AAKgbKoEAAQIECLQTEADaNZkKEyBAgACBuoAAUDdUAgECBAgQaCcgALRrMhUmQIAAAQJ1AQGgbqgEAgQIECDQTkAAaNdkKkyAAAECBOoCAkDdUAkECBAgQKCdgADQrslUmAABAgQI1AUEgLqhEggQIECAQDsBAaBdk6kwAQIECBCoCwgAdUMlECBAgACBdgICQLsmU2ECBAgQIFAXEADqhkogQIAAAQLtBASAdk2mwgQIECBAoC4gANQNlUCAAAECBNoJCADtmkyFCRAgQIBAXUAAqBsqgQABAgQItBMQANo1mQoTIECAAIG6gABQN1QCAQIECBBoJyAAtGsyFSZAgAABAnUBAaBuqAQCBAgQINBOQABo12QqTIAAAQIE6gICQN1QCQQIECBAoJ2AANCuyVSYAAECBAjUBQSAuqESCBAgQIBAOwEBoF2TqTABAgQIEKgLCAB1QyUQIECAAIF2AgJAuyZTYQIECBAgUBcQAOqGSiBAgAABAu0EBIB2TabCBAgQIECgLiAA1A2VQIAAAQIE2gkIAO2aTIUJECBAgEBdQACoGyqBAAECBAi0ExAA2jWZChMgQIAAgbqAAFA3VAIBAgQIEGgnIAC0azIVJkCAAAECdQEBoG6oBAIECBAg0E5AAGjXZCpMgAABAgTqAgJA3VAJBAgQIECgnYAA0K7JVJgAAQIECNQFBIC6oRIIECBAgEA7AQGgXZOpMAECBAgQqAsIAHVDJRAgQIAAgXYCAkC7JlNhAgQIECBQFxAA6oZKIECAAAEC7QQEgHZNpsIECBAgQKAuIADUDZVAgAABAgTaCQgA7ZpMhQkQIECAQF1AAKgbKoEAAQIECLQTEADaNZkKEyBAgACBuoAAUDdUAgECBAgQaCcgALRrMhUmQIAAAQJ1AQGgbqgEAgQIECDQTkAAaNdkKkyAAAECBOoCAkDdUAkECBAgQKCdgADQrslUmAABAgQI1AUEgLqhEggQIECAQDsBAaBdk6kwAQIECBCoCwgAdUMlECBAgACBdgICQLsmU2ECBAgQIFAXEADqhkogQIAAAQLtBASAdk2mwgQIECBAoC4gANQNlUCAAAECBNoJCADtmkyFCRAgQIBAXUAAqBsqgQABAgQItBMQANo1mQoTIECAAIG6gABQN1QCAQIECBBoJyAAtGsyFSZAgAABAnUBAaBuqAQCBAgQINBOQABo12QqTIAAAQIE6gICQN1QCQQIECBAoJ2AANCuyVSYAAECBAjUBQSAuqESCBAgQIBAOwEBoF2TqTABAgQIEKgLCAB1QyUQIECAAIF2AgJAuyZTYQIECBAgUBcQAOqGSiBAgAABAu0EBIB2TabCBAgQIECgLiAA1A2VQIAAAQIE2gkIAO2aTIUJECBAgEBdQACoGyqBAAECBAi0ExAA2jWZChMgQIAAgbqAAFA3VAIBAgQIEGgnIAC0azIVJkCAAAECdQEBoG6oBAIECBAg0E5AAGjXZCpMgAABAgTqAgJA3VAJBAgQIECgnYAA0K7JVJgAAQIECNQFBIC6oRIIECBAgEA7AQGgXZOpMAECBAgQqAsIAHVDJRAgQIAAgXYCAkC7JlNhAgQIECBQFxAA6oZKIECAAAEC7QQEgHZNpsIECBAgQKAuIADUDZVAgAABAgTaCQgA7ZpMhQkQIECAQF1AAKgbKoEAAQIECLQTEADaNZkKEyBAgACBuoAAUDdUAgECBAgQaCcgALRrMhUmQIAAAQJ1AQGgbqgEAgQIECDQTkAAaNdkKkyAAAECBOoCAkDdUAkECBAgQKCdgADQrslUmAABAgQI1AUEgLqhEggQIECAQDsBAaBdk6kwAQIECBCoCwgAdUMlECBAgACBdgICQLsmU2ECBAgQIFAXEADqhkogQIAAAQLtBASAdk2mwgQIECBAoC4gANQNlUCAAAECBNoJCADtmkyFCRAgQIBAXUAAqBsqgQABAgQItBMQANo1mQoTIECAAIG6gABQN1QCAQIECBBoJyAAtGsyFSZAgAABAnUBAaBuqAQCBAgQINBOQABo12QqTIAAAQIE6gICQN1QCQQIECBAoJ2AANCuyVSYAAECBAjUBQSAuqESCBAgQIBAOwEBoF2TqTABAgQIEKgLCAB1QyUQIECAAIF2AgJAuyZTYQIECBAgUBcQAOqGSiBAgAABAu0EBIB2TabCBAgQIECgLiAA1A2VQIAAAQIE2gkIAO2aTIUJECBAgEBdQACoGyqBAAECBAi0ExAA2jWZChMgQIAAgbqAAFA3VAIBAgQIEGgnIAC0azIVJkCAAAECdQEBoG6oBAIECBAg0E5AAGjXZCpMgAABAgTqAgJA3VAJBAgQIECgnYAA0K7JVJgAAQIECNQFBIC6oRIIECBAgEA7AQGgXZOpMAECBAgQqAsIAHVDJRAgQIAAgXYCAkC7JlNhAgQIECBQFxAA6oZKIECAAAEC7QQEgHZNpsIECBAgQKAuIADUDZVAgAABAgTaCQgA7ZpMhQkQIECAQF1AAKgbKoEAAQIECLQTEADaNZkKEyBAgACBuoAAUDdUAgECBAgQaCcgALRrMhUmQIAAAQJ1AQGgbqgEAgQIECDQTkAAaNdkKkyAAAECBOoCAkDdUAkECBAgQKCdgADQrslUmAABAgQI1AUEgLqhEggQIECAQDsBAaBdk6kwAQIECBCoCwgAdUMlECBAgACBdgICQLsmU2ECBAgQIFAXEADqhkogQIAAAQLtBASAdk2mwgQIECBAoC4gANQNlUCAAAECBNoJCADtmkyFCRAgQIBAXUAAqBsqgQABAgQItBMQANo1mQoTIECAAIG6wL8Cm0bxW08gfsoAAAAASUVORK5CYII="
+		]
+	}
+}
